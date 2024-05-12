@@ -1,20 +1,11 @@
-import BanCard from '../BanCard'
+import BanList from '../BanList'
 import { Container } from './styles'
 
 const BanSection = () => {
   return (
     <Container>
       <h3 className="alignCenter">Bans</h3>
-      <div className="alignCenter">
-        <BanCard />
-        <BanCard />
-        <BanCard />
-        <BanCard />
-        <BanCard />
-        <BanCard />
-        <BanCard />
-        <BanCard />
-      </div>
+      <BanList />
     </Container>
   )
 }

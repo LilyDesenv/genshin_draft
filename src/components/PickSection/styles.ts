@@ -24,3 +24,16 @@ export const Section = styled.div`
     width: 100%;
   }
 `
+export const Info1 = styled.div`
+  margin-left: 16px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+`
+
+export const Info2 = styled.div`
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-right: 16px;
+`

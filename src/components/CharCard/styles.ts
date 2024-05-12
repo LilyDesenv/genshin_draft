@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { colors } from '../../styles'
 
 export const Container = styled.div`
   max-width: 350px;
@@ -18,6 +19,9 @@ export const BGCharImg = styled.div`
   min-height: 10vh;
   height: 100%;
   cursor: pointer;
+  border-radius: 16px;
+  background-color: ${colors.gray};
+  border-radius: 16px;
 
   &:hover {
     transform: scale(1.05);
@@ -44,12 +48,13 @@ export const CharContent = styled.div`
   }
 
   h4 {
-    color: black;
+    color: white;
     font-weight: 900;
-    font-size: 2.5vh;
-    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 3vh;
+    /* background-color: rgba(255, 255, 255, 0.4); */
     border-radius: 8px;
-    margin-top: 18%;
+    margin-top: 15%;
+    text-shadow: 2px 2px 1px #000, 0 0 1em black;
   }
 `
 

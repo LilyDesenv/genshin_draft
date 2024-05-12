@@ -5,8 +5,9 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  margin: 8px;
-  padding: 8px;
+  row-gap: 16px;
+  column-gap: 20px;
+  margin: 8px 16px 0 16px;
+
   border-radius: 16px;
 `

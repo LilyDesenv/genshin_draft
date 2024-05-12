@@ -2,10 +2,10 @@ import * as S from './styles'
 
 const Draft = () => {
   const constEmpty =
-    'https://servidor-estaticos-pi-nine.vercel.app/imagesGenshin/emptyConst.png'
+    'https://servidor-estaticos-pi-nine.vercel.app/imagesGenshin/constellations/emptyConst.png'
 
   const constSelected =
-    'https://servidor-estaticos-pi-nine.vercel.app/imagesGenshin/selectedConst.png'
+    'https://servidor-estaticos-pi-nine.vercel.app/imagesGenshin/constellations/selectedConst.png'
 
   return (
     <S.Container>
